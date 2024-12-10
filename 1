@@ -1,0 +1,21 @@
+Задание 1 
+#include <iostream>
+
+int main() {
+    setlocale(LC_ALL, "Rus");
+    
+    int num1 = 10;
+    int num2 = 20;
+    
+    int *ptr1 = &num1;
+    int *ptr2 = &num2;
+    
+    if(*ptr1 > *ptr2){
+        std::cout << "Наибольшее число" << *ptr1 << std::endl;
+    } else {
+        std::cout << "Наибольшее число: " << *ptr2 << std::endl;
+    }
+
+  return 0;
+}
+    
